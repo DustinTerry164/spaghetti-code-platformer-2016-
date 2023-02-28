@@ -106,6 +106,13 @@ public class app extends Canvas implements Runnable {
 	
 	}
 	public void setup_start_screen(){
+		
+		/* updated comment 2/27/2023
+		 * this function setsup the main menu screen where I have decided to use an image file
+		 * the data class was part of my sprite management system where graphics in put into an array of image objects
+		 * (could of done this better if I used a sprite sheet instead but thats how I've done it in the past)
+		 * The data.ob_number_l2 ++ increments it so the program knows which part of the array to update next time)
+		 */
 		Image start_text =  new ImageIcon(getClass().getResource("start.png")).getImage();
 		data.graphics_l2[data.ob_number_l2] = start_text;
 		data.x_coords_l2[data.ob_number_l2] = 0;

@@ -1,7 +1,9 @@
 Motive
 
 In 2016 when I was roughly the age of 18 I decided to create a platformer for my senior project. I decided that since I was taking a class in high school on java programming, and I enjoyed building things. That coding a game from almost scratch was appropriate and even though this was made about 7 years ago I decided to include it in my GitHub anyways. Since even though it doesn’t perform very well and has some major unfixed bugs, I would consider it to be the most impressive thing I have made so far.
+
 A rough description of each .java file
+
 App.java
 
 This file is where the main function is at and where the game officially starts and where objects start getting rendered.
